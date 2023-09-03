@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="103" alignment="0" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="-2" pref="289" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
+                                  <Component id="lbMateria" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="cbMateria4" alignment="0" pref="0" max="32767" attributes="0"/>
+                              <Component id="cbMateria3" alignment="0" pref="0" max="32767" attributes="0"/>
+                              <Component id="cbMateria2" alignment="0" pref="0" max="32767" attributes="0"/>
+                              <Component id="cbMateria1" alignment="0" min="-2" pref="153" max="-2" attributes="0"/>
+                              <Component id="cbMateria5" alignment="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="cbUV2" alignment="0" max="32767" attributes="0"/>
+                              <Component id="cbUV1" alignment="0" max="32767" attributes="0"/>
+                              <Component id="cbUV5" alignment="0" min="-2" pref="65" max="-2" attributes="0"/>
+                              <Component id="cbUV4" alignment="0" max="32767" attributes="0"/>
+                              <Component id="cbUV3" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="tfNota5" alignment="0" min="-2" pref="74" max="-2" attributes="0"/>
+                              <Component id="tfNota4" alignment="0" min="-2" pref="74" max="-2" attributes="0"/>
+                              <Component id="tfNota3" alignment="0" min="-2" pref="74" max="-2" attributes="0"/>
+                              <Component id="tfNota1" alignment="0" min="-2" pref="74" max="-2" attributes="0"/>
+                              <Component id="tfNota2" alignment="0" min="-2" pref="74" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                  <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                      <Component id="lbEstado3" alignment="0" min="-2" pref="60" max="-2" attributes="0"/>
+                                      <Component id="lbEstado2" alignment="0" min="-2" pref="60" max="-2" attributes="0"/>
+                                      <Component id="lbEstado1" alignment="0" min="-2" pref="60" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="lbEstado5" alignment="1" min="-2" pref="60" max="-2" attributes="0"/>
+                                  <Component id="lbEstado4" alignment="1" min="-2" pref="60" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="lbTEstado" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="84" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="lbCalcular" min="-2" pref="450" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="125" max="-2" attributes="0"/>
+                          <Component id="lbNombre" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="147" max="-2" attributes="0"/>
+                          <Component id="lbCarrera" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="108" max="-2" attributes="0"/>
+                          <Component id="lbCiclo" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="91" max="-2" attributes="0"/>
+                          <Component id="lbCUM" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="80" max="-2" attributes="0"/>
+                                  <Component id="tfNombre" min="-2" pref="147" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                                  <Component id="lbimagen" min="-2" pref="200" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lbTitulo" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="lbUV" alignment="1" min="-2" pref="29" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Component id="cbListaCarreras" min="-2" pref="128" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                                          <Component id="cbListaCiclo" min="-2" pref="81" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                                          <Component id="tfCUM" min="-2" pref="75" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
+                                          <Component id="lbNota" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="105" max="-2" attributes="0"/>
+              <Component id="btCalcular" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lbTitulo" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbNombre" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbCarrera" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbCiclo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbCUM" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="tfNombre" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cbListaCarreras" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cbListaCiclo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tfCUM" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lbMateria" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbTEstado" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbUV" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbNota" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="cbMateria1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cbUV1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbEstado1" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="tfNota1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="cbMateria2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cbUV2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbEstado2" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="tfNota2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="cbMateria3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cbUV3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbEstado3" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="tfNota3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="cbMateria4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cbUV4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbEstado4" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="tfNota4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="cbMateria5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cbUV5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbEstado5" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="tfNota5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="lbimagen" alignment="0" max="32767" attributes="0"/>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace type="separate" pref="21" max="32767" attributes="0"/>
+                      <Component id="btCalcular" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="lbCalcular" min="-2" pref="38" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lbTitulo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="CONTROL DE NOTAS"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbNombre">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nombre:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfNombre">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tfNombreActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbCarrera">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Carrera:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbListaCarreras">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="5">
+            <StringItem index="0" value="-"/>
+            <StringItem index="1" value="Ing. Sistemas"/>
+            <StringItem index="2" value="Ing. Electrica"/>
+            <StringItem index="3" value="Ing. Industrial"/>
+            <StringItem index="4" value="Ing. Agronegocios"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cbListaCarrerasActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbCiclo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ciclo:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbListaCiclo">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="3">
+            <StringItem index="0" value="-"/>
+            <StringItem index="1" value="01"/>
+            <StringItem index="2" value="02"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cbListaCicloActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbCUM">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CUM"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfCUM">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tfCUMActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbMateria">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Materia"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbMateria1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="10" style="0"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="6">
+            <StringItem index="0" value="-"/>
+            <StringItem index="1" value="Investigacion de Operaciones I"/>
+            <StringItem index="2" value="Electronica"/>
+            <StringItem index="3" value="Legislacion Aplicada a la Empresa"/>
+            <StringItem index="4" value="Desarrollo de Software"/>
+            <StringItem index="5" value="Base de Datos II"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbMateria2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="10" style="0"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="6">
+            <StringItem index="0" value="-"/>
+            <StringItem index="1" value="Investigacion de Operaciones I"/>
+            <StringItem index="2" value="Electronica"/>
+            <StringItem index="3" value="Legislacion Aplicada a la Empresa"/>
+            <StringItem index="4" value="Desarrollo de Software"/>
+            <StringItem index="5" value="Base de Datos II"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cbMateria2ActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbMateria3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="10" style="0"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="6">
+            <StringItem index="0" value="-"/>
+            <StringItem index="1" value="Investigacion de Operaciones I"/>
+            <StringItem index="2" value="Electronica"/>
+            <StringItem index="3" value="Legislacion Aplicada a la Empresa"/>
+            <StringItem index="4" value="Desarrollo de Software"/>
+            <StringItem index="5" value="Base de Datos II"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbMateria4">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="10" style="0"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="6">
+            <StringItem index="0" value="-"/>
+            <StringItem index="1" value="Investigacion de Operaciones I"/>
+            <StringItem index="2" value="Electronica"/>
+            <StringItem index="3" value="Legislacion Aplicada a la Empresa"/>
+            <StringItem index="4" value="Desarrollo de Software"/>
+            <StringItem index="5" value="Base de Datos II"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbMateria5">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="10" style="0"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="6">
+            <StringItem index="0" value="-"/>
+            <StringItem index="1" value="Investigacion de Operaciones I"/>
+            <StringItem index="2" value="Electronica"/>
+            <StringItem index="3" value="Legislacion Aplicada a la Empresa"/>
+            <StringItem index="4" value="Desarrollo de Software"/>
+            <StringItem index="5" value="Base de Datos II"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbUV">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="UV"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbUV1">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="0"/>
+            <StringItem index="1" value="3"/>
+            <StringItem index="2" value="4"/>
+            <StringItem index="3" value=" "/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cbUV1ActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbUV2">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="0"/>
+            <StringItem index="1" value="3"/>
+            <StringItem index="2" value="4"/>
+            <StringItem index="3" value=" "/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbUV3">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="0"/>
+            <StringItem index="1" value="3"/>
+            <StringItem index="2" value="4"/>
+            <StringItem index="3" value=" "/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbUV4">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="0"/>
+            <StringItem index="1" value="3"/>
+            <StringItem index="2" value="4"/>
+            <StringItem index="3" value=" "/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbUV5">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="3">
+            <StringItem index="0" value="0"/>
+            <StringItem index="1" value="3"/>
+            <StringItem index="2" value="4"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cbUV5ActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbNota">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nota"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfNota1">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tfNota1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfNota2">
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfNota3">
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfNota4">
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfNota5">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbTEstado">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Estado"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbEstado1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Estado"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbEstado2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Estado"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbEstado3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Estado"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbEstado4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Estado"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbEstado5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Estado"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btCalcular">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Calcular"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btCalcularActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbCalcular">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbimagen">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/controldenotas/imagen.jpg"/>
+        </Property>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
