@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Registro</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                margin: 0;
+                padding: 0;
+            }
+            
+            h1 {
+            text-align: center;
+            background-color: #3498db;
+            color: #fff;
+            padding: 20px;
+            }
+            
+            form {
+            max-width: 500px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            }
+            
+            input[type="text"],
+            input[type="date"],
+            textarea {
+                width: 90%;
+                padding: 10px;
+                margin-bottom: 10px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+            }
+
+            input[type="submit"],
+            input[type="reset"] {
+                background-color: #3498db;
+                color: #fff;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+         <h1>REGISTRO DE MEDICAMENTO</h1>
+        <form action="ServletPricipal" method="post">
+            Nombre: <br><input type="text" name="tfNombres" size=20><br>
+            Descripcion: <br><textarea name="taDescripcion" rows=5 cols=40></textarea><br>
+            Precio Unitario: <br><input type="text" name="tfPrecio" size=20><br>
+            Existencia: <br><input type="text" name="tfExistencia" size=20><br>
+            FechaVencimiento: <br><input type="date" name="dFechaVencimiento">
+            <p>
+                <input type="submit" name="btRegistrar" value="Registrar">
+                <input type="reset" name="btLimpiar" value="Limpiar">
+        </form>
+    </body>
+</html>
